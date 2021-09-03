@@ -1,0 +1,37 @@
+.aboutContainer {
+  padding: 4rem 0;
+}
+
+.aboutBanner {
+  width: 100%;
+  max-width: 13rem;
+}
+
+.bannerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.textContainer {
+  text-align: center;
+  margin: 2rem 0;
+  font-weight: 400;
+  color: #7e7e7e;
+  max-width: 800px;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.textParagraph {
+  margin: 1.5rem 0;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+@media screen and (min-width: 800px) {
+  .aboutBanner {
+    max-width: 15rem;
+  }
+}
