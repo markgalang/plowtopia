@@ -4,14 +4,14 @@
     <Hero /> -->
     <About />
     <GameEconomy />
-    <!--  <RoadMap />
-    <Footer /> -->
+    <!--  <RoadMap />-->
+    <Footer />
   </div>
 </template>
 
 <script>
 // import Navbar from "@/components/Navbar/Navbar";
-// import Footer from "@/components/Footer/Footer";
+import Footer from "@/components/Footer/Footer";
 // import Hero from "@/layout/Hero/Hero";
 import About from "@/layout/About/About";
 // import RoadMap from "@/layout/Roadmap/Roadmap";
@@ -25,7 +25,7 @@ export default {
     About,
     GameEconomy,
     // RoadMap,
-    // Footer,
+    Footer,
   },
 };
 </script>
