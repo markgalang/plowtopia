@@ -1,0 +1,51 @@
+.game-economy-container {
+  padding: 4rem 0;
+  background-image: url("../../assets/wood-background.svg");
+  background-size: cover;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.titleBannerImage {
+  width: 100%;
+  max-width: 17rem;
+}
+
+.economyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.economy {
+  max-width: 400px;
+  width: 100%;
+  padding: 1rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+.economyImage {
+  width: 100%;
+  padding: 1rem;
+}
+
+.economyText {
+  text-align: center;
+  color: #c5c5c5;
+}
+
+@media screen and (min-width: 800px) {
+  .titleBannerImage {
+    max-width: 19rem;
+  }
+}

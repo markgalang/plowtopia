@@ -9,6 +9,7 @@
 html {
   font-family: "Inter", sans-serif;
   font-size: 12px;
+  line-height: 1.7;
 }
 
 @media screen and (min-width: 600px) {
@@ -20,5 +21,19 @@ html {
 @media screen and (min-width: 1000px) {
   html {
     font-size: 16px;
+  }
+}
+
+.container {
+  /* border: 2px solid red; */
+  max-width: 1520px;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    padding: 0 2rem;
   }
 }
