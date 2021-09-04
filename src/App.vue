@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <!-- <Navbar />
-    <Hero /> -->
+    <Navbar />
+    <Hero />
     <About />
     <GameEconomy />
     <!--  <RoadMap />-->
@@ -10,9 +10,9 @@
 </template>
 
 <script>
-// import Navbar from "@/components/Navbar/Navbar";
+import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
-// import Hero from "@/layout/Hero/Hero";
+import Hero from "@/layout/Hero/Hero";
 import About from "@/layout/About/About";
 // import RoadMap from "@/layout/Roadmap/Roadmap";
 import GameEconomy from "@/layout/GameEconomy/GameEconomy";
@@ -20,8 +20,8 @@ import GameEconomy from "@/layout/GameEconomy/GameEconomy";
 export default {
   name: "App",
   components: {
-    // Hero,
-    // Navbar,
+    Hero,
+    Navbar,
     About,
     GameEconomy,
     // RoadMap,
