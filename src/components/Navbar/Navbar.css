@@ -1,5 +1,5 @@
 .navbarContainer {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 0;
   left: 0;
@@ -10,10 +10,169 @@
 
 .navbarBrandLogo {
   max-width: 13rem;
+  display: none;
 }
 
-@media screen and (min-width: 600px) {
+.navbarContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLinksContainer {
+  background-image: url("../../assets/wood-texture.png");
+  mix-blend-mode: normal;
+  background-size: cover;
+  padding: 15px 10px;
+  border-radius: 24px;
+  border: 3px solid #54331a;
+  filter: drop-shadow(0px 0px 30px rgba(255, 221, 141, 0.819608));
+  display: none;
+}
+
+.navbarLinksContainer ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbarLinksContainer ul li {
+  color: #412213;
+  text-decoration: none;
+  text-align: center;
+  padding: 0 15px;
+}
+
+.navbarLinksContainer ul li a {
+  color: #412213;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.active {
+  color: #ffa30b !important ;
+}
+
+.getToken {
+  background: linear-gradient(
+    0deg,
+    #ff9400 -16.94%,
+    #ffa701 22.69%,
+    #ffbd04 68.31%
+  );
+  border: 2px solid #784e2e;
+  border-radius: 38px;
+  font-size: 1.1rem;
+  max-width: 11rem;
+  width: 100%;
+  padding: 15px 0;
+  display: none;
+}
+
+.menu {
+  max-width: 2rem;
+}
+.menuMobile {
+  position: fixed;
+  width: 100%;
+  background-image: url("../../assets/wood-background.svg");
+  background-size: cover;
+  left: 0;
+  height: 100%;
+  z-index: 9999;
+  top: 0;
+  display: none;
+}
+.menuContentMobile {
+  position: relative;
+}
+.closeButtonContainer {
+  text-align: end;
+  padding: 10px;
+  z-index: 999999;
+}
+.close {
+  max-width: 3rem;
+  position: relative;
+  z-index: 99999999;
+}
+
+.showMenu {
+  display: block;
+}
+
+.menuLinksContainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+.menuLinksContainer ul {
+  list-style: none;
+}
+
+.menuLinksContainer ul li a {
+  color: #412213;
+  font-size: 2.3rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menuLinksContainer ul li:not(:last-child) {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 1350px) {
+  .navbarLinksContainer ul li {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .navbarBrandLogo {
+    max-width: 22rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
   .navbarContainer {
+    padding: 15px 0;
+  }
+
+  .navbarLinksContainer {
     display: block;
+  }
+
+  .getToken {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbarContainer {
+    background-image: url("../../assets/wood-texture.png");
+  }
+}
+
+@media (min-width: 600px) {
+  .navbarBrandLogo {
+    display: block;
+  }
+}
+
+@media (max-width: 599px) {
+  .menu {
+    padding: 15px 0;
+  }
+
+  .navbarContent {
+    justify-content: flex-end;
   }
 }

@@ -1,11 +1,32 @@
 <template>
   <div class="roadmap-container">
-    <h1>RoadMap</h1>
+    <div class="container">
+      <div class="titleContainer">
+        <img
+          :src="RoadMapHeader"
+          class="titleBannerImage"
+          alt="Roadmap Header"
+        />
+      </div>
+
+      <div class="roadmapPlansContainer">
+        <RoadmapPlan />
+      </div>
+    </div>
   </div>
 </template>
 <script>
+import RoadMapHeader from "@/assets/roadmap-label.svg";
+import RoadmapPlan from "../../components/RoadmapPlan/RoadmapPlan.vue";
 export default {
   name: "Roadmap",
+  data: () => ({
+    RoadMapHeader,
+  }),
+
+  components: {
+    RoadmapPlan,
+  },
 };
 </script>
 

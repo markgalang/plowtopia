@@ -1,0 +1,16 @@
+.roadmap-container {
+  padding: 4rem 0;
+  background-image: url("../../assets/roadmap-background.svg");
+  background-size: cover;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.titleBannerImage {
+  width: 100%;
+  max-width: 17rem;
+}
