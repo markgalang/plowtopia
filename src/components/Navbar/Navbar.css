@@ -183,15 +183,11 @@
 
 @media screen and (min-width: 1150px) {
   .navbarBrandLogo {
-    max-width: 22rem;
+    max-width: 18rem;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .navbarContainer {
-    padding: 15px 0;
-  }
-
   .navbarLinksContainer {
     display: block;
   }
