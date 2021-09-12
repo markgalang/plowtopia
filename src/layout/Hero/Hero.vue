@@ -1,9 +1,15 @@
 <template>
-  <div class="heroContainer">
+  <div id="home" class="heroContainer">
     <div class="heroOverlay" />
     <div class="mobileHero">
       <img :src="PlowTopia" class="mobileHeroLogo" alt="Plowtopia" />
-      <a href="#" class="heroButton">Get token</a>
+      <a
+        href="https://google.com"
+        class="heroButton"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Get token</a
+      >
     </div>
 
     <img :src="GamePreview" class="gamePreview" alt="Plowtopia" />

@@ -9,7 +9,7 @@
 }
 
 .navbarBrandLogo {
-  max-width: 13rem;
+  max-width: 10rem;
   display: none;
 }
 
@@ -30,7 +30,7 @@
   display: none;
 }
 
-.navbarLinksContainer ul {
+/* .navbarLinksContainer ul {
   display: flex;
   list-style: none;
 }
@@ -40,16 +40,23 @@
   text-decoration: none;
   text-align: center;
   padding: 0 15px;
-}
+} */
 
-.navbarLinksContainer ul li a {
+.navbar-link {
   color: #412213;
   text-decoration: none;
   font-weight: 600;
+  padding: 0 1.5rem;
+  cursor: pointer;
 }
 
-.active {
+.navbar-link:hover {
+  color: #ffa30b;
+}
+
+.scrollactive-item {
   color: #ffa30b !important ;
+  /* border: 2px solid red; */
 }
 
 .getToken {
@@ -193,7 +200,14 @@
   }
 
   .getToken {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #412213;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 10rem;
   }
 
   .menu {

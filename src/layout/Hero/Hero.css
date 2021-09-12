@@ -50,6 +50,7 @@
   font-weight: 500;
   padding: 0.5rem 2rem;
   margin: 2rem;
+  z-index: 9999;
 }
 
 .gamePreview {

@@ -4,17 +4,29 @@
       <div class="navbarContent">
         <img :src="PlowTopia" class="navbarBrandLogo" alt="Plowtopia" />
         <div class="navbarLinksContainer">
-          <ul>
-            <li><a href="" class="active">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Roadmap</a></li>
-            <li><a href="">White Paper</a></li>
-            <li><a href="">Cultivator</a></li>
-            <li><a href="">Play</a></li>
-          </ul>
+          <scrollactive activeClass="scrollactive-item" exact alwaysTrack>
+            <a href="#home" class="scrollactive-item navbar-link">Home</a>
+            <a href="#about" class="scrollactive-item navbar-link">About</a>
+            <a href="#roadmap" class="scrollactive-item navbar-link">Roadmap</a>
+            <a
+              href="#roadmap"
+              target="_blank"
+              rel="noopener noreferrer"
+              class=" navbar-link"
+              >Whitepaper</a
+            >
+            <a href="#roadmap" class=" navbar-link">Cultivator</a>
+            <a href="#roadmap" class=" navbar-link">Play</a>
+          </scrollactive>
         </div>
         <img @click="toggle()" :src="Menu" alt="Menu" class="menu" />
-        <button class="getToken">Get a Token</button>
+        <a
+          href="https://google.com"
+          class="getToken"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Get a Token</a
+        >
         <div class="menuMobile" :class="{ showMenu: state }">
           <div class="menuContentMobile">
             <div class="closeButtonContainer">
@@ -39,6 +51,7 @@
 import PlowTopia from "@/assets/plowtopia-logo.png";
 import Menu from "@/assets/menu.svg";
 import Close from "@/assets/close.svg";
+// import Whitepaper from "@/assets/whitepaper.pdf";
 
 export default {
   name: "Navbar",
@@ -46,6 +59,7 @@ export default {
     PlowTopia,
     Menu,
     Close,
+    // Whitepaper,
     state: false,
   }),
 

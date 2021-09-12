@@ -1,5 +1,5 @@
 <template>
-  <div class="roadmap-container">
+  <div id="roadmap" class="roadmap-container">
     <div class="container">
       <div class="titleContainer">
         <img
