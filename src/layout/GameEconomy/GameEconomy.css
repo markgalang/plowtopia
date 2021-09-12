@@ -18,8 +18,9 @@
 
 .economyContainer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  align-items: flex-start;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -42,6 +43,10 @@
 .economyText {
   text-align: center;
   color: #c5c5c5;
+}
+
+.economyTitle {
+  color: #fff;
 }
 
 @media screen and (min-width: 800px) {

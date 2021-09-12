@@ -8,8 +8,8 @@
     >
       <div class="planDescription">
         <h2>{{ item.title }}</h2>
-        <p>
-          {{ item.description }}
+        <p v-for="(event, i) in item.events" v-bind:key="i">
+          {{ event }}
         </p>
       </div>
 
@@ -23,11 +23,11 @@
 </template>
 
 <script>
-import Plan1 from "@/assets/1.png";
+// import Plan1 from "@/assets/1.png";
 import Plan2 from "@/assets/2.png";
 import Plan3 from "@/assets/3.png";
 import Plan4 from "@/assets/4.png";
-import Plan5 from "@/assets/5.png";
+// import Plan5 from "@/assets/5.png";
 import Plan6 from "@/assets/6.png";
 
 export default {
@@ -35,53 +35,72 @@ export default {
   data: () => ({
     planContent: [
       {
-        title: "Plan 1",
-        description:
-          '"To be more specific, the negative impact of the vital decisions will possibly result in The Trace of Dependent Customization" ',
-        img: Plan1,
+        title: "Q3 2021",
+        events: [
+          "Liquity Mining",
+          "NFT Marketplace",
+          "Plot and NFT Trading",
+          "Strategic Partnerships",
+        ],
+        img: Plan2,
         line: "line1",
         width: "plan1Width",
       },
       {
-        title: "Plan 2",
-        description:
-          '"To be more specific, the negative impact of the vital decisions will possibly result in The Trace of Dependent Customization" ',
-        img: Plan2,
+        title: "Q4 2021",
+        events: [
+          "Game Launching (Beta)",
+          "Avatars and Costumes Auction",
+          "Additional Items/NFTs",
+          "CEX listings",
+        ],
+        img: Plan3,
         line: "line2",
         width: "plan1Width",
       },
       {
-        title: "Plan 3",
-        description:
-          '"To be more specific, the negative impact of the vital decisions will possibly result in The Trace of Dependent Customization" ',
-        img: Plan3,
+        title: "Q1 2022",
+        events: [
+          "Game Economy Adjustments",
+          "Additional Gameplay",
+          "Multiplayer",
+          "Virtual Trading world",
+        ],
+        img: Plan4,
         line: "line3",
         width: "plan2Width",
       },
       {
-        title: "Plan 4",
-        description:
-          '"To be more specific, the negative impact of the vital decisions will possibly result in The Trace of Dependent Customization" ',
-        img: Plan4,
+        title: "Q2 2022",
+        events: ["Famous NFTs as Avatars", "PlowTopia Punks Avatars"],
+        img: Plan6,
         line: "line4",
         width: "plan1Width",
       },
-      {
-        title: "Plan 5",
-        description:
-          '"To be more specific, the negative impact of the vital decisions will possibly result in The Trace of Dependent Customization" ',
-        img: Plan5,
-        line: "line5",
-        width: "plan2Width",
-      },
-      {
-        title: "Plan 6",
-        description:
-          '"To be more specific, the negative impact of the vital decisions will possibly result in The Trace of Dependent Customization" ',
-        img: Plan6,
-        line: "line2",
-        width: "plan1Width",
-      },
+      // {
+      //   title: "Plan 5",
+      //   events: [
+      //     "Liquity Mining",
+      //     "NFT Marketplace",
+      //     "Plot and NFT Trading",
+      //     "Strategic Partnerships",
+      //   ],
+      //   img: Plan5,
+      //   line: "line5",
+      //   width: "plan2Width",
+      // },
+      // {
+      //   title: "Plan 6",
+      //   events: [
+      //     "Liquity Mining",
+      //     "NFT Marketplace",
+      //     "Plot and NFT Trading",
+      //     "Strategic Partnerships",
+      //   ],
+      //   img: Plan6,
+      //   line: "line2",
+      //   width: "plan1Width",
+      // },
     ],
   }),
 };

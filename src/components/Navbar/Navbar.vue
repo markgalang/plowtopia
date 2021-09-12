@@ -6,9 +6,11 @@
         <div class="navbarLinksContainer">
           <ul>
             <li><a href="" class="active">Home</a></li>
-            <li><a href="">About Plowtopia</a></li>
-            <li><a href="">Game Roadmap</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Roadmap</a></li>
             <li><a href="">White Paper</a></li>
+            <li><a href="">Cultivator</a></li>
+            <li><a href="">Play</a></li>
           </ul>
         </div>
         <img @click="toggle()" :src="Menu" alt="Menu" class="menu" />

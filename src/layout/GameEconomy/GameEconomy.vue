@@ -11,28 +11,32 @@
       <div class="economyContainer">
         <div class="economy">
           <img :src="MarketIcon" alt="Market Economy" class="economyImage" />
+          <h2 class="economyTitle">Play to Earn</h2>
           <p class="economyText">
-            "At any rate, with the exception of the basic feature has proved to
-            be reliable in the scope of The Ranking of Accessible Principle"
-            (Moshe Moffitt in The Book of the Resource Management)
+            Gems are the in-game currency earned by farming and virtual trading.
+            It is used to buy in-game assets to boost your farming rewards.
+            Users also earn PLOT by completing daily missions which then can be
+            sold on Decentralized Exchanges.
           </p>
         </div>
 
         <div class="economy">
           <img :src="MarketIcon" alt="Market Economy" class="economyImage" />
+          <h2 class="economyTitle">Staking Rewards</h2>
           <p class="economyText">
-            "At any rate, with the exception of the basic feature has proved to
-            be reliable in the scope of The Ranking of Accessible Principle"
-            (Moshe Moffitt in The Book of the Resource Management)
+            A Staking platform will be deployed that will incentivized stakers
+            and Liquidity providers whereas holders will gain a share from
+            protocol fees and revenue which will be paid out in $PLOT.
           </p>
         </div>
 
         <div class="economy">
           <img :src="MarketIcon" alt="Market Economy" class="economyImage" />
+          <h2 class="economyTitle">NFT Marketplace</h2>
           <p class="economyText">
-            "At any rate, with the exception of the basic feature has proved to
-            be reliable in the scope of The Ranking of Accessible Principle"
-            (Moshe Moffitt in The Book of the Resource Management)
+            The main currency on PlowTopia game and Web Marketplace is PLOT.
+            Users can purchase numerous Items and NFTs using the token where it
+            creates a strong demand.
           </p>
         </div>
       </div>
