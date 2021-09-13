@@ -12,10 +12,10 @@
               >Tokenomics</a
             >
             <a
-              href="#roadmap"
+              href="./whitepaper.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              class=" navbar-link"
+              class="navbar-link"
               >Whitepaper</a
             >
             <a href="#roadmap" class=" navbar-link">Cultivator</a>
