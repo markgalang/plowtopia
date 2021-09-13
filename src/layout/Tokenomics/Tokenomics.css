@@ -1,0 +1,54 @@
+.roadmap-container {
+  padding: 5rem 0;
+  background-image: url("../../assets/wood-background.svg");
+  background-size: cover;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.titleBannerImage {
+  width: 100%;
+  max-width: 17rem;
+}
+
+.tokenomicsGraph {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2rem auto;
+}
+
+.graphContainer {
+  display: none;
+}
+
+.mobileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dataContainer {
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 800px) {
+  .graphContainer {
+    display: flex;
+  }
+
+  .mobileContainer {
+    display: none;
+  }
+}

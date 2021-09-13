@@ -70,12 +70,18 @@
     position: absolute;
     left: 47%;
     transform: translateX(-50%);
-    bottom: 25%;
+    bottom: 5rem;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .gamePreview {
-    bottom: -7rem;
+    bottom: -5rem;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .gamePreview {
+    bottom: 5%;
   }
 }

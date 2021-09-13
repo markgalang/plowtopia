@@ -5,6 +5,7 @@
     <About />
     <GameEconomy />
     <RoadMap />
+    <Tokenomics />
     <Footer />
   </div>
 </template>
@@ -16,6 +17,7 @@ import Hero from "@/layout/Hero/Hero";
 import About from "@/layout/About/About";
 import RoadMap from "@/layout/Roadmap/Roadmap";
 import GameEconomy from "@/layout/GameEconomy/GameEconomy";
+import Tokenomics from "@/layout/Tokenomics/Tokenomics";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     GameEconomy,
     RoadMap,
     Footer,
+    Tokenomics,
   },
 };
 </script>

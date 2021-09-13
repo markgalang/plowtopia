@@ -8,6 +8,9 @@
             <a href="#home" class="scrollactive-item navbar-link">Home</a>
             <a href="#about" class="scrollactive-item navbar-link">About</a>
             <a href="#roadmap" class="scrollactive-item navbar-link">Roadmap</a>
+            <a href="#tokenomics" class="scrollactive-item navbar-link"
+              >Tokenomics</a
+            >
             <a
               href="#roadmap"
               target="_blank"
