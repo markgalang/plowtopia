@@ -25,7 +25,7 @@
               class="navbar-link"
               >Cultivator</a
             >
-            <a href="#roadmap" class=" navbar-link">Play</a>
+            <router-link to="/play" class=" navbar-link">Play</router-link>
           </scrollactive>
         </div>
         <img @click="toggleMenu()" :src="Menu" alt="Menu" class="menu" />

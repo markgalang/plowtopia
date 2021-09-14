@@ -53,6 +53,7 @@ export default {
           "Avatars and Costumes Auction",
           "Additional Items/NFTs",
           "CEX listings",
+          "PlowTopia Cultivator",
         ],
         img: Plan3,
         line: "line2",
