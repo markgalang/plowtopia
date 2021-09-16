@@ -37,7 +37,9 @@
 
 .economyImage {
   width: 100%;
+  max-width: 250px;
   padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .economyText {
