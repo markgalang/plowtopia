@@ -7,10 +7,26 @@
       </div>
       <div class="navContainer">
         <div class="linksContainer">
-          <a href="#" class="link">Home</a>
-          <a href="#" class="link">About Plowtopia</a>
-          <a href="#" class="link">Game Roadmap</a>
-          <a href="#" class="link">Whitepaper</a>
+          <a href="#home" class="link">Home</a>
+          <a href="#about" class="link">About</a>
+          <a href="#roadmap" class="link">Roadmap</a>
+          <a href="#tokenomics" class="link">Tokenomics</a>
+
+          <a
+            href="./whitepaper.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link"
+            >Whitepaper</a
+          >
+          <a
+            :href="cultivatorLink"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link"
+            >Cultivator</a
+          >
+          <router-link to="/play" class="link">Play</router-link>
         </div>
 
         <div class="socialIconContainer">
@@ -42,6 +58,7 @@ export default {
     GreyLogo,
     FacebookLogo,
     InstagramLogo,
+    cultivatorLink: "https://app.plowtopia.io",
   }),
 };
 </script>

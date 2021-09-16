@@ -189,14 +189,12 @@
 }
 
 @media screen and (min-width: 1150px) {
-  .navbarBrandLogo {
-    max-width: 18rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
   .navbarLinksContainer {
     display: block;
+  }
+
+  .navbarBrandLogo {
+    max-width: 14rem;
   }
 
   .getToken {
@@ -210,12 +208,16 @@
     min-width: 10rem;
   }
 
+  .getToken:hover {
+    text-decoration: underline;
+  }
+
   .menu {
     display: none;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1149px) {
   .navbarContainer {
     background-image: url("../../assets/wood-texture.png");
   }

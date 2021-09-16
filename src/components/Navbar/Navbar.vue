@@ -25,17 +25,12 @@
               class="navbar-link"
               >Cultivator</a
             >
-            <router-link to="/play" class=" navbar-link">Play</router-link>
           </scrollactive>
         </div>
         <img @click="toggleMenu()" :src="Menu" alt="Menu" class="menu" />
-        <a
-          :href="getTokenLink"
-          class="getToken"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Get a Token</a
-        >
+
+        <router-link to="/play" class="getToken">Play</router-link>
+
         <div class="menuMobile" :class="{ showMenu: isMenuVisible }">
           <div class="menuContentMobile">
             <div class="closeButtonContainer">
@@ -49,10 +44,42 @@
 
             <div class="menuLinksContainer">
               <ul>
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Roadmap</a></li>
-                <li><a href="">White Paper</a></li>
+                <li @click="toggleMenu()">
+                  <a href="#home" class="navbar-link">Home</a>
+                </li>
+                <li @click="toggleMenu()">
+                  <a href="#about" class="navbar-link">About</a>
+                </li>
+                <li @click="toggleMenu()">
+                  <a href="#roadmap" class="navbar-link">Roadmap</a>
+                </li>
+                <li @click="toggleMenu()">
+                  <a href="#tokenomics" class="navbar-link">Tokenomics</a>
+                </li>
+                <li @click="toggleMenu()">
+                  <a
+                    href="./whitepaper.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="navbar-link"
+                    >Whitepaper</a
+                  >
+                </li>
+                <li @click="toggleMenu()">
+                  <a
+                    :href="cultivatorLink"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="navbar-link"
+                    >Cultivator</a
+                  >
+                </li>
+
+                <li @click="toggleMenu()">
+                  <router-link to="/play" class="getTokenMobile"
+                    >Play</router-link
+                  >
+                </li>
               </ul>
             </div>
           </div>

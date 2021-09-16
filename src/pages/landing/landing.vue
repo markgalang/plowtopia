@@ -3,6 +3,7 @@
     <Navbar />
     <Hero />
     <About />
+    <GameAssets />
     <GameEconomy />
     <RoadMap />
     <Tokenomics />
@@ -17,6 +18,7 @@ import Hero from "@/layout/Hero/Hero";
 import About from "@/layout/About/About";
 import RoadMap from "@/layout/Roadmap/Roadmap";
 import GameEconomy from "@/layout/GameEconomy/GameEconomy";
+import GameAssets from "@/layout/GameAssets/GameAssets";
 import Tokenomics from "@/layout/Tokenomics/Tokenomics";
 
 export default {
@@ -29,6 +31,7 @@ export default {
     RoadMap,
     Footer,
     Tokenomics,
+    GameAssets,
   },
 };
 </script>

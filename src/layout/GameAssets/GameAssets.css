@@ -1,0 +1,56 @@
+.game-assets-container {
+  padding: 4rem 0;
+  background-color: #d5970e;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.titleBannerImage {
+  width: 100%;
+  max-width: 17rem;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.assetTitle {
+  text-align: center;
+  color: #634400;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.assetContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+}
+
+.asset {
+  max-width: 10rem;
+  margin: 3rem;
+  transform: scale(1);
+  transition: all 0.2s;
+}
+
+@media screen and (min-width: 800px) {
+  .titleBannerImage {
+    max-width: 19rem;
+  }
+
+  .asset:hover {
+    transform: scale(1.1);
+  }
+}

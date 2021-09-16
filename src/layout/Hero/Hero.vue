@@ -3,13 +3,8 @@
     <div class="heroOverlay" />
     <div class="mobileHero">
       <img :src="PlowTopia" class="mobileHeroLogo" alt="Plowtopia" />
-      <a
-        href="https://google.com"
-        class="heroButton"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Get token</a
-      >
+
+      <router-link to="/play" class="heroButton">Play</router-link>
     </div>
 
     <img :src="GamePreview" class="gamePreview" alt="Plowtopia" />
