@@ -100,7 +100,7 @@ export default {
     Menu,
     Close,
     isMenuVisible: false,
-    cultivatorLink: "https://app.plowtopia.io",
+    cultivatorLink: "https://app-plowtopia-dev.web.app/",
     getTokenLink: "https://pancakeswap.com",
   }),
 

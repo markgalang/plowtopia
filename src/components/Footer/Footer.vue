@@ -58,7 +58,7 @@ export default {
     GreyLogo,
     FacebookLogo,
     InstagramLogo,
-    cultivatorLink: "https://app.plowtopia.io",
+    cultivatorLink: "https://app-plowtopia-dev.web.app/",
   }),
 };
 </script>
