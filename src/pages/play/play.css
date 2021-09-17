@@ -36,6 +36,7 @@
 
 .logo {
   width: 100%;
+  max-width: 500px;
 }
 
 .play-page-content {
@@ -57,6 +58,12 @@
 .mobileContainer img {
   width: 100%;
 }
+
+/* .social-links {
+  position: absolute;
+  bottom: -7rem;
+  width: 50%;
+} */
 
 .social-links ul,
 .social-links-mob ul {
@@ -112,14 +119,13 @@
     background-color: #000;
     height: 100vh;
     padding: 0 2rem;
-    display: block;
   }
 
   .play-page-container {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 80vh;
+    position: absolute;
   }
 
   .play-page-content {
@@ -127,10 +133,11 @@
   }
 
   .social-links {
-    display: flex !important;
+    display: flex;
     justify-content: space-evenly;
-    height: 15vh;
-    display: block;
+    position: absolute;
+    bottom: -8rem;
+    width: 50%;
   }
 
   .mobileContainer {

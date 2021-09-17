@@ -23,6 +23,26 @@
             <h2>A bountiful harvest awaits</h2>
           </div>
         </router-link>
+
+        <div class="social-links">
+          <ul>
+            <li>
+              <a href=""><img :src="Facebook" alt="Facebook"/></a>
+            </li>
+
+            <li>
+              <a href=""><img :src="Instagram" alt="Instagram"/></a>
+            </li>
+
+            <li>
+              <a href=""><img :src="Discord" alt="Discord"/></a>
+            </li>
+
+            <li>
+              <a href=""><img :src="Telegram" alt="Telegram"/></a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div class="mobileContainer">
@@ -48,28 +68,6 @@
           </li>
         </ul>
       </div>
-    </div>
-
-    <div class="social-links">
-      <ul>
-        <li>
-          <a href=""><img :src="Facebook" alt="Facebook"/></a>
-        </li>
-
-        <li>
-          <a href=""><img :src="Instagram" alt="Instagram"/></a>
-        </li>
-
-        <li>
-          <a href=""><img :src="Discord" alt="Discord"/></a>
-        </li>
-
-        <li>
-          <a href=""><img :src="Telegram" alt="Telegram"/></a>
-        </li>
-      </ul>
-
-      <div class="whitespace"></div>
     </div>
   </div>
 </template>
