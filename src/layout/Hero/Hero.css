@@ -76,12 +76,18 @@
 
 @media screen and (min-width: 1000px) {
   .gamePreview {
-    bottom: -5rem;
+    bottom: -10%;
   }
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1500px) {
   .gamePreview {
-    bottom: 5%;
+    bottom: 15%;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .gamePreview {
+    max-width: 85rem;
   }
 }

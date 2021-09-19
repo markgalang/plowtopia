@@ -73,7 +73,7 @@
 </template>
 
 <script>
-import PlowtopiaLogo from "@/assets/plowtopia-logo-colored.svg";
+import PlowtopiaLogo from "@/assets/plowtopia-logo.svg";
 import PlayPageMobile from "@/assets/playPageMobile.svg";
 import Facebook from "@/assets/fb.svg";
 import Instagram from "@/assets/ig.svg";

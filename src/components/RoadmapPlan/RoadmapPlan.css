@@ -12,10 +12,11 @@
   padding: 20px 0;
   margin: auto;
   align-items: center;
+  flex-direction: row;
 }
 
 .planDescription {
-  max-width: 20rem;
+  max-width: 15rem;
   width: 100%;
   color: #fff;
   text-align: end;
@@ -100,6 +101,7 @@
   .roadmapPlanContainer {
     justify-content: center;
     align-items: center;
+    flex-direction: row-reverse;
   }
 
   .planImage {
@@ -115,10 +117,9 @@
   .roadmapPlanContainer:nth-child(4) {
     margin-top: unset;
   }
-}
 
-@media (max-width: 600px) {
   .planDescription {
-    text-align: center;
+    text-align: left;
+    margin-left: 2rem;
   }
 }

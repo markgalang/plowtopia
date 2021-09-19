@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .play-page-container {
@@ -130,6 +131,7 @@
 
   .play-page-content {
     max-width: 40rem;
+    width: 100%;
   }
 
   .social-links {
@@ -169,6 +171,13 @@
 @media (min-width: 768px) {
   .play-page-content {
     max-width: 40rem;
+    min-width: 30rem;
+    width: 100%;
+  }
+
+  .mobileImage {
+    display: block;
+    max-width: 30rem;
     width: 100%;
   }
   .logoContainer {

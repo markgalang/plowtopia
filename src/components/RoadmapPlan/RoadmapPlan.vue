@@ -69,7 +69,7 @@ export default {
         ],
         img: Plan4,
         line: "line3",
-        width: "plan2Width",
+        width: "plan1Width",
       },
       {
         title: "Q2 2022",

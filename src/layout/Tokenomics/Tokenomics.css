@@ -9,6 +9,14 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
+  flex-direction: column;
+}
+
+.supplyText {
+  font-size: 900;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  color: #fff;
 }
 
 .titleBannerImage {
