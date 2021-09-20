@@ -176,7 +176,6 @@
   }
 
   .mobileImage {
-    display: block;
     max-width: 30rem;
     width: 100%;
   }

@@ -89,7 +89,7 @@
   </div>
 </template>
 <script>
-import PlowTopia from "@/assets/plowtopia-logo.png";
+import PlowTopia from "@/assets/plowtopia-logo.svg";
 import Menu from "@/assets/menu.svg";
 import Close from "@/assets/close.svg";
 

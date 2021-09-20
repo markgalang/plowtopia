@@ -11,7 +11,7 @@
   </div>
 </template>
 <script>
-import PlowTopia from "@/assets/plowtopia-logo.png";
+import PlowTopia from "@/assets/plowtopia-logo.svg";
 import GamePreview from "@/assets/game-preview.svg";
 
 export default {
