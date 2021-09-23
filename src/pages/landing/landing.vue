@@ -7,6 +7,7 @@
     <GameEconomy />
     <RoadMap />
     <Tokenomics />
+    <Partners />
     <Footer />
   </div>
 </template>
@@ -20,6 +21,7 @@ import RoadMap from "@/layout/Roadmap/Roadmap";
 import GameEconomy from "@/layout/GameEconomy/GameEconomy";
 import GameAssets from "@/layout/GameAssets/GameAssets";
 import Tokenomics from "@/layout/Tokenomics/Tokenomics";
+import Partners from "@/layout/Partners/Partners";
 
 export default {
   name: "Landing",
@@ -32,6 +34,7 @@ export default {
     Footer,
     Tokenomics,
     GameAssets,
+    Partners,
   },
 };
 </script>

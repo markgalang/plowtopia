@@ -35,21 +35,21 @@
             target="_blank"
             rel="noopener noreferrer"
             class="link"
-            ><img :src="FacebookLogo" alt="Facebook" class="socialIcon"
+            ><img :src="TwitterIcon" alt="Facebook" class="socialIcon"
           /></a>
           <a
             href="https://medium.com/@plowtopia"
             target="_blank"
             rel="noopener noreferrer"
             class="link"
-            ><img :src="InstagramLogo" alt="Facebook" class="socialIcon"
+            ><img :src="MediumIcon" alt="Facebook" class="socialIcon"
           /></a>
           <a
             href="https://t.me/PlowTopia"
             target="_blank"
             rel="noopener noreferrer"
             class="link"
-            ><img :src="TelegramLogo" alt="Facebook" class="socialIcon"
+            ><img :src="TelegramIcon" alt="Facebook" class="socialIcon"
           /></a>
         </div>
       </div>
@@ -58,17 +58,17 @@
 </template>
 <script>
 import GreyLogo from "@/assets/grey-outlined-logo.svg";
-import FacebookLogo from "@/assets/facebook.svg";
-import InstagramLogo from "@/assets/instagram.svg";
-import TelegramLogo from "@/assets/tg.svg";
+import MediumIcon from "@/assets/icons/mediumIcon.svg";
+import TwitterIcon from "@/assets/icons/twitterIcon.svg";
+import TelegramIcon from "@/assets/icons/telegramIcon.svg";
 
 export default {
   name: "Footer",
   data: () => ({
     GreyLogo,
-    FacebookLogo,
-    InstagramLogo,
-    TelegramLogo,
+    MediumIcon,
+    TwitterIcon,
+    TelegramIcon,
     cultivatorLink: "https://app.plowtopia.io/",
   }),
 };
