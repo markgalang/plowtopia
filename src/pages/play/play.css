@@ -82,13 +82,14 @@
   width: 100%;
 }
 
+.listIcon {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
 .social-links ul li,
 .social-links-mob ul li {
   margin: 0 2rem;
-}
-
-.social-links ul li:hover .social-links-mob ul li:hover {
-  transform: scale(1.1);
 }
 
 .whitespace {
@@ -165,6 +166,10 @@
   .logoContainer h1 {
     font-size: 2rem;
     margin-top: 1rem !important;
+  }
+
+  .listIcon:hover {
+    transform: scale(1.1);
   }
 }
 

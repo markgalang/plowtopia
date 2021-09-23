@@ -27,19 +27,31 @@
         <div class="social-links">
           <ul>
             <li>
-              <a href=""><img :src="Facebook" alt="Facebook"/></a>
+              <a
+                href="https://twitter.com/PlowTopia"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img :src="Instagram" class="listIcon" alt="Instagram" />
+              </a>
             </li>
 
             <li>
-              <a href=""><img :src="Instagram" alt="Instagram"/></a>
+              <a
+                href="https://medium.com/@plowtopia"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img :src="Discord" class="listIcon" alt="Discord" />
+              </a>
             </li>
 
             <li>
-              <a href=""><img :src="Discord" alt="Discord"/></a>
-            </li>
-
-            <li>
-              <a href=""><img :src="Telegram" alt="Telegram"/></a>
+              <a
+                href="https://t.me/PlowTopia"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img :src="Telegram" class="listIcon" alt="Telegram"
+              /></a>
             </li>
           </ul>
         </div>
@@ -52,19 +64,31 @@
       <div class="social-links-mob">
         <ul>
           <li>
-            <a href=""><img :src="Facebook" alt="Facebook"/></a>
+            <a
+              href="https://twitter.com/PlowTopia"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img :src="Instagram" alt="Instagram" />
+            </a>
           </li>
 
           <li>
-            <a href=""><img :src="Instagram" alt="Instagram"/></a>
+            <a
+              href="https://medium.com/@plowtopia"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img :src="Discord" alt="Discord" />
+            </a>
           </li>
 
           <li>
-            <a href=""><img :src="Discord" alt="Discord"/></a>
-          </li>
-
-          <li>
-            <a href=""><img :src="Telegram" alt="Telegram"/></a>
+            <a
+              href="https://t.me/PlowTopia"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img :src="Telegram" alt="Telegram"
+            /></a>
           </li>
         </ul>
       </div>
