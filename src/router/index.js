@@ -11,6 +11,11 @@ const routes = [
     name: "PlayPage",
     component: () => import("../pages/play/play.vue"),
   },
+  {
+    path: "/pre-sale",
+    name: "PreSale",
+    component: () => import("../pages/preSale/preSale.vue"),
+  },
 ];
 
 const router = new VueRouter({

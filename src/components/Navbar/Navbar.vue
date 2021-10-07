@@ -1,6 +1,11 @@
 <template>
   <div class="navbarContainer">
     <div class="container">
+      <div class="announcementContainer">
+        <router-link target="_blank" to="/pre-sale" class="annoucementLink"
+          >Pre-Sale Contract</router-link
+        >
+      </div>
       <div class="navbarContent">
         <img :src="PlowTopia" class="navbarBrandLogo" alt="Plowtopia" />
         <div class="navbarLinksContainer">

@@ -32,7 +32,11 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img :src="Instagram" class="listIcon" alt="Instagram" />
+                <img
+                  :src="TwitterIcon"
+                  class="listIcon"
+                  alt="https://twitter.com/PlowTopia"
+                />
               </a>
             </li>
 
@@ -41,7 +45,11 @@
                 href="https://medium.com/@plowtopia"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><img :src="Discord" class="listIcon" alt="Discord" />
+                ><img
+                  :src="MediumIcon"
+                  class="listIcon"
+                  alt="https://medium.com/@plowtopia"
+                />
               </a>
             </li>
 
@@ -50,7 +58,10 @@
                 href="https://t.me/PlowTopia"
                 target="_blank"
                 rel="noopener noreferrer"
-                ><img :src="Telegram" class="listIcon" alt="Telegram"
+                ><img
+                  :src="TelegramIcon"
+                  class="listIcon"
+                  alt="https://t.me/PlowTopia"
               /></a>
             </li>
           </ul>
@@ -69,7 +80,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img :src="Instagram" alt="Instagram" />
+              <img :src="TwitterIcon" alt="https://twitter.com/PlowTopia" />
             </a>
           </li>
 
@@ -78,7 +89,7 @@
               href="https://medium.com/@plowtopia"
               target="_blank"
               rel="noopener noreferrer"
-              ><img :src="Discord" alt="Discord" />
+              ><img :src="MediumIcon" alt="https://medium.com/@plowtopia" />
             </a>
           </li>
 
@@ -87,7 +98,7 @@
               href="https://t.me/PlowTopia"
               target="_blank"
               rel="noopener noreferrer"
-              ><img :src="Telegram" alt="Telegram"
+              ><img :src="TelegramIcon" alt="https://t.me/PlowTopia"
             /></a>
           </li>
         </ul>
@@ -99,20 +110,18 @@
 <script>
 import PlowtopiaLogo from "@/assets/plowtopia-logo.svg";
 import PlayPageMobile from "@/assets/playPageMobile.svg";
-import Facebook from "@/assets/fb.svg";
-import Instagram from "@/assets/ig.svg";
-import Discord from "@/assets/discord.svg";
-import Telegram from "@/assets/tg.svg";
+import MediumIcon from "@/assets/icons/mediumIconWhite.svg";
+import TwitterIcon from "@/assets/icons/twitterIconWhite.svg";
+import TelegramIcon from "@/assets/icons/telegramIconWhite.svg";
 
 export default {
   name: "Landing",
   data: () => ({
     PlowtopiaLogo,
     PlayPageMobile,
-    Facebook,
-    Instagram,
-    Discord,
-    Telegram,
+    MediumIcon,
+    TwitterIcon,
+    TelegramIcon,
   }),
 };
 </script>

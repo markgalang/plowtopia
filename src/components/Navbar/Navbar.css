@@ -6,6 +6,7 @@
   right: 0;
   background-color: transparent;
   z-index: 999999;
+  padding-top: 2rem;
 }
 
 .navbarBrandLogo {
@@ -26,21 +27,9 @@
   padding: 15px 10px;
   border-radius: 24px;
   border: 3px solid #54331a;
-  filter: drop-shadow(0px 0px 30px rgba(255, 221, 141, 0.819608));
+  filter: drop-shadow(0px 2rem 2rem rgba(255, 221, 141, 0.419608));
   display: none;
 }
-
-/* .navbarLinksContainer ul {
-  display: flex;
-  list-style: none;
-}
-
-.navbarLinksContainer ul li {
-  color: #412213;
-  text-decoration: none;
-  text-align: center;
-  padding: 0 15px;
-} */
 
 .navbar-link {
   color: #412213;
@@ -91,6 +80,27 @@
   -webkit-animation: swing-in-left-bck 0.6s
     cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
   animation: swing-in-left-bck 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+}
+
+.announcementContainer {
+  background-color: #ffa701;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.annoucementLink {
+  color: #412313;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.annoucementLink:hover {
+  text-decoration: underline;
 }
 
 /* ----------------------------------------------

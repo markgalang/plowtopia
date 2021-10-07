@@ -1,0 +1,107 @@
+.preSaleContainer {
+  background-color: #000;
+  background-image: url("../../assets/plowtopia-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.preSaleOverlay {
+  position: absolute;
+  backdrop-filter: blur(1rem) brightness(25%);
+  height: 100vh;
+  width: 100%;
+}
+
+.pageContentContainer {
+  border: 2px solid #fff;
+  z-index: 9999;
+  padding: 2rem;
+  border-radius: 5px;
+  max-width: 800px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.buyNowButton {
+  background: linear-gradient(
+    0deg,
+    #ff9400 -16.94%,
+    #ffa701 22.69%,
+    #ffbd04 68.31%
+  );
+  border: 2px solid #784e2e;
+  border-radius: 0.5rem;
+  filter: drop-shadow(0px 2px 4px rgba(100, 100, 100, 1));
+  font-size: 1rem;
+  text-decoration: none;
+  color: #412213;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+  margin: 0 2rem;
+  transform: scale(1);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.bnbInput {
+  padding: 0.5rem;
+  padding-right: 0.25rem;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: none;
+  text-align: center;
+  width: 100%;
+}
+
+.description {
+  margin: 1.5rem 0;
+}
+
+.inputWrapper {
+  width: 40%;
+}
+
+.plotSummary {
+  text-align: left;
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+.inputContainer {
+  display: flex;
+  margin-top: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.connectWalletButton {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  border: 2px solid #ffa701;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  color: #ffa701;
+  font-weight: 500;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.connectWalletButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (min-width: 1000px) {
+  .buyNowButton:hover {
+    transform: scale(1.02);
+  }
+}
