@@ -1,6 +1,10 @@
 .game-assets-container {
-  padding: 4rem 0;
+  padding: 5rem 0;
   background-color: #d5970e;
+  background-image: url("../../assets/gameAssets/gameAssetBackground.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .titleContainer {
@@ -22,12 +26,23 @@
   align-items: center;
 }
 
-.assetTitle {
+.assetTitleContainer {
   text-align: center;
-  color: #634400;
-  font-size: 2rem;
+  color: #fff;
   font-weight: bold;
-  margin-top: 2rem;
+  margin: 2rem 0;
+  max-width: 500px;
+  width: 100%;
+  font-family: "Londrina Solid", cursive;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+
+.assetTitle {
+  font-size: 2rem;
+  color: #fff;
+  font-family: "Londrina Solid", cursive;
+  font-style: normal;
 }
 
 .assetContainer {
@@ -35,14 +50,41 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1200px;
+  width: 100%;
 }
 
 .asset {
-  max-width: 10rem;
-  margin: 3rem;
+  max-width: 11rem;
+  width: 100%;
+  margin: 1.5rem;
   transform: scale(1);
   transition: all 0.2s;
+}
+
+.avatarAsset {
+  width: 100%;
+}
+
+.tractorAsset {
+  max-width: 22rem;
+  width: 100%;
+  margin: 1.5rem;
+  transform: scale(1);
+  transition: all 0.2s;
+}
+
+.avatarContainer {
+  background-image: url("../../assets/gameAssets/avatarBackground.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  max-width: 17rem;
+  height: 23rem;
+  width: 100%;
+  transform: scale(0.8);
+  transition: all 0.2s;
+  position: relative;
 }
 
 @media screen and (min-width: 800px) {
@@ -52,5 +94,12 @@
 
   .asset:hover {
     transform: scale(1.1);
+  }
+
+  .tractorAsset:hover {
+    transform: scale(1.1);
+  }
+  .avatarContainer:hover {
+    transform: scale(0.9);
   }
 }

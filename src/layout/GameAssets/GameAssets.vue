@@ -12,30 +12,58 @@
       <div class="contentContainer">
         <h1 class="assetTitle">Seeds</h1>
         <div class="assetContainer">
-          <img :src="Carrot" alt="Carrot" class="asset" />
-          <img :src="Corn" alt="Corn" class="asset" />
-          <img :src="Strawberry" alt="Strawberry" class="asset" />
-          <img :src="Eggplant" alt="Eggplant" class="asset" />
-          <img :src="Tomato" alt="Tomato" class="asset" />
-          <img :src="Wheat" alt="Wheat" class="asset" />
+          <img :src="seed1" alt="Plowtopia Seed" class="asset" />
+          <img :src="seed2" alt="Plowtopia Seed" class="asset" />
+          <img :src="seed3" alt="Plowtopia Seed" class="asset" />
+          <img :src="seed4" alt="Plowtopia Seed" class="asset" />
+          <img :src="seed5" alt="Plowtopia Seed" class="asset" />
         </div>
       </div>
 
       <div class="contentContainer">
-        <h1 class="assetTitle">Tools</h1>
+        <div class="assetTitleContainer">
+          <h1 class="assetTitle">Avatars</h1>
+          <p>
+            Playable and customizable avatars with distinct rarity: Uncommon,
+            Common, Rare, Mythical
+          </p>
+        </div>
         <div class="assetContainer">
-          <img :src="HandFork" alt="HandFork" class="asset" />
-          <img :src="Hoe" alt="Hoe" class="asset" />
-          <img :src="Shovel" alt="Shovel" class="asset" />
+          <div class="avatarContainer">
+            <img :src="avatar1" alt="Plowtopia Avatar" class="avatarAsset" />
+          </div>
+
+          <div class="avatarContainer">
+            <img :src="avatar2" alt="Plowtopia Avatar" class="avatarAsset" />
+          </div>
+
+          <div class="avatarContainer">
+            <img :src="avatar3" alt="Plowtopia Avatar" class="avatarAsset" />
+          </div>
+
+          <div class="avatarContainer">
+            <img :src="avatar4" alt="Plowtopia Avatar" class="avatarAsset" />
+          </div>
+
+          <div class="avatarContainer">
+            <img :src="avatar5" alt="Plowtopia Avatar" class="avatarAsset" />
+          </div>
+
+          <div class="avatarContainer">
+            <img :src="avatar6" alt="Plowtopia Avatar" class="avatarAsset" />
+          </div>
         </div>
       </div>
 
       <div class="contentContainer">
-        <h1 class="assetTitle">Tractor</h1>
+        <div class="assetTitleContainer">
+          <h1 class="assetTitle">Vehicles</h1>
+          <p>Enjoy the game while riding your cool vehicles</p>
+        </div>
         <div class="assetContainer">
-          <img :src="TractorBlue" alt="TractorBlue" class="asset" />
-          <img :src="TractorRed" alt="TractorRed" class="asset" />
-          <img :src="TractorYellow" alt="TractorYellow" class="asset" />
+          <img :src="tractor1" alt="Plowtopia Tractor" class="tractorAsset" />
+          <img :src="tractor2" alt="Plowtopia Tractor" class="tractorAsset" />
+          <img :src="tractor3" alt="Plowtopia Tractor" class="tractorAsset" />
         </div>
       </div>
     </div>
@@ -44,37 +72,41 @@
 <script>
 import GameAssetsLabel from "@/assets/gameAssets/game-assets-label.svg";
 
-import Carrot from "@/assets/gameAssets/Carrot.svg";
-import Corn from "@/assets/gameAssets/Corn.svg";
-import Tomato from "@/assets/gameAssets/Tomato.svg";
-import Eggplant from "@/assets/gameAssets/Eggplant.svg";
-import Strawberry from "@/assets/gameAssets/Strawberry.svg";
-import Wheat from "@/assets/gameAssets/Wheat.svg";
+import seed1 from "@/assets/gameAssets/seed1.svg";
+import seed2 from "@/assets/gameAssets/seed2.svg";
+import seed3 from "@/assets/gameAssets/seed3.svg";
+import seed4 from "@/assets/gameAssets/seed4.svg";
+import seed5 from "@/assets/gameAssets/seed5.svg";
 
-import HandFork from "@/assets/gameAssets/HandFork.svg";
-import Hoe from "@/assets/gameAssets/Hoe.svg";
-import Shovel from "@/assets/gameAssets/Shovel.svg";
+import avatar1 from "@/assets/gameAssets/avatar1.svg";
+import avatar2 from "@/assets/gameAssets/avatar2.svg";
+import avatar3 from "@/assets/gameAssets/avatar3.svg";
+import avatar4 from "@/assets/gameAssets/avatar4.svg";
+import avatar5 from "@/assets/gameAssets/avatar5.svg";
+import avatar6 from "@/assets/gameAssets/avatar6.svg";
 
-import TractorRed from "@/assets/gameAssets/TractorRed.svg";
-import TractorBlue from "@/assets/gameAssets/TractorBlue.svg";
-import TractorYellow from "@/assets/gameAssets/TractorYellow.svg";
+import tractor1 from "@/assets/gameAssets/Tractor1.svg";
+import tractor2 from "@/assets/gameAssets/Tractor2.svg";
+import tractor3 from "@/assets/gameAssets/Tractor3.svg";
 
 export default {
   name: "GameAssets",
   data: () => ({
+    seed1,
+    seed2,
+    seed3,
+    seed4,
+    seed5,
+    tractor1,
+    tractor2,
+    tractor3,
     GameAssetsLabel,
-    Carrot,
-    Corn,
-    Tomato,
-    Eggplant,
-    Strawberry,
-    Wheat,
-    TractorRed,
-    TractorBlue,
-    TractorYellow,
-    HandFork,
-    Hoe,
-    Shovel,
+    avatar1,
+    avatar2,
+    avatar3,
+    avatar4,
+    avatar5,
+    avatar6,
   }),
 };
 </script>

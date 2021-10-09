@@ -13,7 +13,7 @@
           <a href="#tokenomics" class="link">Tokenomics</a>
 
           <a
-            href="./whitepaper.pdf"
+            href="./PLOWTOPIA.pdf"
             target="_blank"
             rel="noopener noreferrer"
             class="link"
